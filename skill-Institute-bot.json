@@ -1,0 +1,1123 @@
+{
+  "intents": [
+    {
+      "intent": "Computer",
+      "examples": [
+        {
+          "text": "I need information of computer branch"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Electrical",
+      "examples": [
+        {
+          "text": "I need information of electrical branch"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Engineering",
+      "examples": [
+        {
+          "text": "egg"
+        },
+        {
+          "text": "Engineering"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ETC",
+      "examples": [
+        {
+          "text": "I need information of electronics and telecommunication branch"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Fee",
+      "examples": [
+        {
+          "text": "fee"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Infrastructure",
+      "examples": [
+        {
+          "text": "Fee structure"
+        },
+        {
+          "text": "What are the classroom facilities available?"
+        },
+        {
+          "text": "What are the lab facilities available?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Institutions",
+      "examples": [
+        {
+          "text": "Which branch do you want to choose?"
+        },
+        {
+          "text": "Which Course do you want to pursue?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "IT",
+      "examples": [
+        {
+          "text": "I need information of IT branch"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "MBA",
+      "examples": [
+        {
+          "text": "I am looking for MBA course"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Mechanical",
+      "examples": [
+        {
+          "text": "Mech"
+        },
+        {
+          "text": "Mechanical"
+        },
+        {
+          "text": "Mechanical Engineering"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Pharmacy",
+      "examples": [
+        {
+          "text": "pharmacy"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Welcome",
+      "examples": [
+        {
+          "text": "hallow"
+        },
+        {
+          "text": "Hi"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "computer",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "computer",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Course",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "course",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "electrical",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "electrical",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Engineering",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "engg",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "engineering",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "etc",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "E&Tc",
+          "synonyms": [
+            "Electronics and Telecommunication",
+            "ETC"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Fee",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "fee",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Infrastructure",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "classroom",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Infra",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "lab facilities",
+          "synonyms": [
+            "classroom",
+            "lab",
+            "workshop"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Library",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "IT",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "IT",
+          "synonyms": [
+            "Information Technology"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "mba",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "MBA",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Mechanical",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "mechanical",
+          "synonyms": [
+            "mech"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "pharmacy",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "BPharm",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pharmacy",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "welcome",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Hi",
+          "synonyms": [
+            "hallo"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you so much for visiting Sinhgad."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_8_1601732590204",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Fee",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Branch fee - Rs.99000.00 Hostel Fee - Rs 55000.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1601646733341",
+      "conditions": "#Fee",
+      "dialog_node": "node_10_1601647421479"
+    },
+    {
+      "type": "standard",
+      "title": "Infrastructure",
+      "parent": "node_5_1601646733341",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Infrastructure ||  @Infrastructure:(lab facilities) || @Infrastructure:Infra",
+      "dialog_node": "node_10_1601647882706",
+      "previous_sibling": "node_10_1601647421479"
+    },
+    {
+      "type": "standard",
+      "title": "infrastructure",
+      "output": {
+        "generic": [
+          {
+            "title": "infra",
+            "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR7-X3cFUql7NlG5tGBV_ou6na7D6akfVTTjg&usqp=CAU",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_9_1601731904972",
+      "conditions": "#Infrastructure",
+      "dialog_node": "node_10_1601742502074",
+      "previous_sibling": "node_9_1601742384555"
+    },
+    {
+      "type": "standard",
+      "title": "Engineering",
+      "output": {
+        "generic": [
+          {
+            "title": "Please select branch",
+            "options": [
+              {
+                "label": "Mechanical",
+                "value": {
+                  "input": {
+                    "text": "Mechanical"
+                  }
+                }
+              },
+              {
+                "label": "Electrical",
+                "value": {
+                  "input": {
+                    "text": "Electrical"
+                  }
+                }
+              },
+              {
+                "label": "Computer ",
+                "value": {
+                  "input": {
+                    "text": "Computer"
+                  }
+                }
+              },
+              {
+                "label": "IT",
+                "value": {
+                  "input": {
+                    "text": "IT"
+                  }
+                }
+              },
+              {
+                "label": "E&TC",
+                "value": {
+                  "input": {
+                    "text": "E&TC"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Engineering || @Engineering:engg",
+      "dialog_node": "node_1_1601646065180",
+      "previous_sibling": "node_3_1601786007511"
+    },
+    {
+      "type": "standard",
+      "title": "Electrical",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What information you looking for?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Choose from list",
+            "options": [
+              {
+                "label": "Fee structure",
+                "value": {
+                  "input": {
+                    "text": "Fee structure"
+                  }
+                }
+              },
+              {
+                "label": "Infrastructure",
+                "value": {
+                  "input": {
+                    "text": "Infrastructure"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1601646065180",
+      "conditions": "#Electrical",
+      "dialog_node": "node_1_1601732872827",
+      "previous_sibling": "node_5_1601646733341"
+    },
+    {
+      "type": "standard",
+      "title": "Infrastructure",
+      "parent": "node_1_1601732872827",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Infrastructure",
+      "dialog_node": "node_1_1601739704683",
+      "previous_sibling": "node_2_1601739647618"
+    },
+    {
+      "type": "standard",
+      "title": "Infrastructure",
+      "output": {
+        "generic": [
+          {
+            "title": "Infra",
+            "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9bVAZm8b1HrKMSMeN1kvVB1bg7Jd5EbiwoQ&usqp=CAU",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1601732590204",
+      "conditions": "#Infrastructure",
+      "dialog_node": "node_1_1601743117590",
+      "previous_sibling": "node_5_1601743026535"
+    },
+    {
+      "type": "standard",
+      "title": "Fee",
+      "output": {
+        "generic": [
+          {
+            "title": "Fee",
+            "source": "https://jspmrscopr.edu.in/wp-content/uploads/2017/12/F.Y.M.Pharm_.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_1_1601732872827",
+      "conditions": "#Fee",
+      "dialog_node": "node_2_1601739647618"
+    },
+    {
+      "type": "standard",
+      "title": "Infrastructure",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Infrastructure || @Infrastructure:Infra || @Infrastructure:Library ||    @Infrastructure:(lab facilities) || @Infrastructure:classroom",
+      "dialog_node": "node_3_1601786007511",
+      "previous_sibling": "node_4_1601736001612"
+    },
+    {
+      "type": "standard",
+      "title": "Fee structure",
+      "output": {
+        "generic": [
+          {
+            "title": "Fee structure for all courses",
+            "source": "https://jspmrscopr.edu.in/wp-content/uploads/2017/12/F.Y.M.Pharm_.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#Fee",
+      "dialog_node": "node_4_1601736001612",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Mechanical",
+      "output": {
+        "generic": [
+          {
+            "title": "Information about branch",
+            "options": [
+              {
+                "label": "Fee structure",
+                "value": {
+                  "input": {
+                    "text": "Fee structure"
+                  }
+                }
+              },
+              {
+                "label": "Infrastructure",
+                "value": {
+                  "input": {
+                    "text": "Infrastructure"
+                  }
+                }
+              },
+              {
+                "label": "Facilities",
+                "value": {
+                  "input": {
+                    "text": "Facilities"
+                  }
+                }
+              },
+              {
+                "label": "Faculty ",
+                "value": {
+                  "input": {
+                    "text": "Faculty"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1601646065180",
+      "conditions": "#Mechanical",
+      "dialog_node": "node_5_1601646733341"
+    },
+    {
+      "type": "standard",
+      "title": "Fee",
+      "output": {
+        "generic": [
+          {
+            "title": "Fee structure",
+            "source": "",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_1_1601646065180",
+      "conditions": "#Fee",
+      "dialog_node": "node_5_1601739586347",
+      "previous_sibling": "node_9_1601732934574"
+    },
+    {
+      "type": "standard",
+      "title": "Fee",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fee - Rs. 120000.00 Hostel fee - Rs. 55000.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1601732590204",
+      "conditions": "#Fee",
+      "dialog_node": "node_5_1601743026535"
+    },
+    {
+      "type": "standard",
+      "title": "IT",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What Information are you looking for?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Choose from list",
+            "options": [
+              {
+                "label": "Fee structure",
+                "value": {
+                  "input": {
+                    "text": "Fee structure"
+                  }
+                }
+              },
+              {
+                "label": "Infrastructure",
+                "value": {
+                  "input": {
+                    "text": "Infrastructure"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1601646065180",
+      "conditions": "#IT",
+      "dialog_node": "node_7_1601732892180",
+      "previous_sibling": "node_1_1601732872827"
+    },
+    {
+      "type": "standard",
+      "title": "Computer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What Information are you looking for?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Choose from list",
+            "options": [
+              {
+                "label": "Fee structure",
+                "value": {
+                  "input": {
+                    "text": "Fee structure"
+                  }
+                }
+              },
+              {
+                "label": "Infrastructure",
+                "value": {
+                  "input": {
+                    "text": "Infrastructure"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1601646065180",
+      "conditions": "#Computer",
+      "dialog_node": "node_7_1601732908190",
+      "previous_sibling": "node_7_1601732892180"
+    },
+    {
+      "type": "standard",
+      "title": "Courses",
+      "output": {
+        "generic": [
+          {
+            "title": "Which course do you want to pursue?",
+            "options": [
+              {
+                "label": "Engineering",
+                "value": {
+                  "input": {
+                    "text": "Engineering"
+                  }
+                }
+              },
+              {
+                "label": "Pharmacy",
+                "value": {
+                  "input": {
+                    "text": "Pharmacy"
+                  }
+                }
+              },
+              {
+                "label": "MBA",
+                "value": {
+                  "input": {
+                    "text": "MBA"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "conditions": "#Institutions || @welcome",
+      "dialog_node": "node_8_1601644812310"
+    },
+    {
+      "type": "standard",
+      "title": "MBA",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is information looking for?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Choose from list",
+            "options": [
+              {
+                "label": "Fee structure",
+                "value": {
+                  "input": {
+                    "text": "Fee structure"
+                  }
+                }
+              },
+              {
+                "label": "Infrastructure",
+                "value": {
+                  "input": {
+                    "text": "Infrastructure"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#MBA",
+      "dialog_node": "node_8_1601732590204",
+      "previous_sibling": "node_9_1601731904972"
+    },
+    {
+      "type": "standard",
+      "title": "Pharmacy",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What information you looking for?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Chose from list",
+            "options": [
+              {
+                "label": "Fee structure",
+                "value": {
+                  "input": {
+                    "text": "Fee structure"
+                  }
+                }
+              },
+              {
+                "label": "Infrastructure",
+                "value": {
+                  "input": {
+                    "text": "Infrastructure"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Pharmacy",
+      "dialog_node": "node_9_1601731904972",
+      "previous_sibling": "node_1_1601646065180"
+    },
+    {
+      "type": "standard",
+      "title": "E&Tc",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What information are you looking for?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Choose from list",
+            "options": [
+              {
+                "label": "Fee structure",
+                "value": {
+                  "input": {
+                    "text": "Fee structure"
+                  }
+                }
+              },
+              {
+                "label": "Infrastructure",
+                "value": {
+                  "input": {
+                    "text": "Infrastructure"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1601646065180",
+      "conditions": "#ETC",
+      "dialog_node": "node_9_1601732934574",
+      "previous_sibling": "node_7_1601732908190"
+    },
+    {
+      "type": "standard",
+      "title": "Fee",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fee- Rs. 99000.00 Hostel Fee- Rs. 55000.00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1601731904972",
+      "conditions": "#Fee",
+      "dialog_node": "node_9_1601742384555"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Lab facilities, Classroom",
+            "source": "https://www.google.com/imgres?imgurl=http%3A%2F%2Fwww.sinhgad.edu%2Fsinhgad-engineering-institutes%2FDepartments%2Fimg%2Fmech-bg.jpg&imgrefurl=http%3A%2F%2Fwww.sinhgad.edu%2Fsinhgad-engineering-institutes%2FDepartments%2FSKNSITS%2FSEI-mech.html&tbnid=jIwPnBHgVfDGAM&vet=12ahUKEwjrk-_DjJbsAhWMESsKHZAvAPUQMygCegUIARCjAQ..i&docid=hCfKQ8R0hVIOQM&w=1000&h=818&q=sinhgad%20mechanical%20department%20lonavala&ved=2ahUKEwjrk-_DjJbsAhWMESsKHZAvAPUQMygCegUIARCjAQ",
+            "description": "https://images.shiksha.com/mediadata/images/1490172690phps4viMZ.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_10_1601647882706",
+      "conditions": "@Infrastructure:Infra",
+      "dialog_node": "response_10_1601648325445"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Infrastructure",
+            "source": "",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_1_1601739704683",
+      "conditions": "#Infrastructure",
+      "dialog_node": "response_1_1601739956539"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Lab",
+            "source": "https://cache.careers360.mobi/media/presets/500X333/colleges/social-media/media-gallery/3074/2018/11/2/Chemical%20lab%20of%20Sinhgad%20Institute%20of%20Technology%20Lonavala_Laboratory.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_3_1601786007511",
+      "conditions": "@Infrastructure:(lab facilities)",
+      "dialog_node": "response_2_1601786319810",
+      "previous_sibling": "response_6_1601786236399"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Lab",
+            "source": "https://cache.careers360.mobi/media/presets/500X333/colleges/social-media/media-gallery/3074/2018/11/2/Chemical%20lab%20of%20Sinhgad%20Institute%20of%20Technology%20Lonavala_Laboratory.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_10_1601647882706",
+      "conditions": "@Infrastructure:(lab facilities)",
+      "dialog_node": "response_3_1601785754836",
+      "previous_sibling": "response_10_1601648325445"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "source": "https://cache.careers360.mobi/media/presets/500X333/colleges/social-media/media-gallery/3074/2020/9/16/IT%20Lab%20of%20Sinhgad%20Institute%20of%20Technology%20Lonavala_IT-Lab_1.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_1_1601739704683",
+      "conditions": "#Infrastructure",
+      "dialog_node": "response_5_1601740086154",
+      "previous_sibling": "response_7_1601739990563"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Infra",
+            "source": "https://media-exp1.licdn.com/dms/image/C511BAQFedHwcOMe4Wg/company-background_10000/0?e=2159024400&v=beta&t=67W4VgMJFgz3lkeog1D6W4WVUX3mXflVURO_Wbtv-iA",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_3_1601786007511",
+      "conditions": "@Infrastructure:Infra",
+      "dialog_node": "response_5_1601786150058"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Classroom",
+            "source": "https://cache.careers360.mobi/media/presets/500X333/colleges/social-media/media-gallery/3074/2018/11/2/Electrical%20lab%20of%20Sinhgad%20Institute%20of%20Technology%20Lonavala_Laboratory.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_3_1601786007511",
+      "conditions": "@Infrastructure:classroom",
+      "dialog_node": "response_6_1601786236399",
+      "previous_sibling": "response_9_1601786172654"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Library",
+            "source": "https://cache.careers360.mobi/media/presets/500X333/colleges/social-media/media-gallery/3074/2018/11/2/Library%20of%20Sinhgad%20Institute%20of%20Technology%20Lonavala_Library.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_1_1601739704683",
+      "conditions": "@Infrastructure:(lab facilities)",
+      "dialog_node": "response_7_1601739990563",
+      "previous_sibling": "response_1_1601739956539"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. Welcome to Sinhgad Institutions. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "conditions": "#Welcome",
+      "dialog_node": "response_8_1601643634521",
+      "previous_sibling": "node_8_1601644812310"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Library",
+            "source": "https://cache.careers360.mobi/media/presets/500X333/colleges/social-media/media-gallery/3074/2018/11/2/Library%20of%20Sinhgad%20Institute%20of%20Technology%20Lonavala_Library.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_3_1601786007511",
+      "conditions": "@Infrastructure:Library",
+      "dialog_node": "response_9_1601786172654",
+      "previous_sibling": "response_5_1601786150058"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. Welcome to Sinhgad Institutions. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Institute bot",
+  "language": "en",
+  "description": ""
+}
